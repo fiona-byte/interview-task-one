@@ -40,10 +40,10 @@
 }
 
 .personal-info__form--description {
-  color: #91918f;
+  color: #8591a0;
   font-size: 1.6rem;
   margin-top: 1rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .personal-info__form--flex {
@@ -70,6 +70,8 @@
 @media only screen and (max-width: 500px) {
 
   .personal-info__form--flex { display: block; }
+
+  .personal-info__select { width: 100%; }
 
   .personal-info__select--location {
     width: 100%;

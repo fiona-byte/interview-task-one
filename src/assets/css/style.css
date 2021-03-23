@@ -40,10 +40,10 @@ a {
 }
 
 .page__link {
-  color: #0c0c57d7;
+  color: #2d2d91d7;
   font-weight: 500;
   font-size: 2rem;
-  margin-left: 4rem;
+  margin-left: 5rem;
 }
 
 input::-webkit-outer-spin-button,
@@ -58,12 +58,12 @@ input[type=number] {
 
 .btn {
   padding: 1.7rem 2rem;
-  background: linear-gradient( 180deg, #eebc3e, #ca7f0e );
+  background: linear-gradient( 180deg, #eebc3e, #fca24f );
   color: #fff;
   width: 30%;
   text-align: center;
   font-size: 2rem;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-right: 2rem;
 }
 
