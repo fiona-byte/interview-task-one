@@ -37,7 +37,10 @@
   cursor: pointer;
 }
 
-.billing__form--flex { display: flex; }
+.billing__form--flex { 
+  display: flex; 
+  width: 100%;
+}
 
 .card__info {
   display: flex;
@@ -66,6 +69,17 @@
 
   
 /*                                      Media Queries                       */
+
+@media only screen and (max-width: 1200px) {
+
+  .card__info {
+    width: 100%;
+  }
+
+  .card__info .billing__form--title { font-size: 1.7rem; }
+
+}
+
 
 @media only screen and (max-width: 768px) {
 

@@ -47,7 +47,7 @@ export default class Billing extends Component {
             </div>
             <div className="card__info">
               <div className="billing__form--control">
-                <p className="billing__form--title expiry">
+                <p className="billing__form--title">
                   Expiry date <span className="required">*</span>
                 </p>
                 <label class="billing__form--label">
